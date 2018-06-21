@@ -1,0 +1,45 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+* vendor/assets/stylesheets directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+* files in this directory. Styles in this file should be added after the last require_* statement.
+* It is generally better to create a new file per style scope.
+*
+*/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+header {
+  background-color: #a6a6a6;
+}
+
+body {
+  background-color: #a6a6a6;
+}
+
+.bg {
+  background-color: white;
+  border-radius: 5px;
+}
+
+h1 {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(http://fillmurray.com/1920/1080);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
